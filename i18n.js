@@ -52,7 +52,118 @@
     "security.reauth": "Re-authentication is required.",
     "security.denied": "Access denied.",
     "security.leastPrivilege": "Access is limited by role and tenant.",
-    "audit.recorded": "This action was recorded in the audit history."
+    "audit.recorded": "This action was recorded in the audit history.",
+    "page.title": "Marxia · Platform Owner",
+    "common.profile": "Profile",
+    "common.appearance": "Appearance",
+    "common.light": "Light",
+    "common.dark": "Dark",
+    "common.logout": "Log out",
+    "common.menu": "Menu",
+    "common.openMenu": "Open navigation",
+    "common.closeMenu": "Close navigation",
+    "common.enableLight": "Enable light theme",
+    "common.enableDark": "Enable dark theme",
+    "common.changeLanguage": "Change language",
+    "common.filter": "Filter",
+    "common.all": "All",
+    "common.active": "Active",
+    "common.inactive": "Inactive",
+    "common.pending": "Pending",
+    "common.status": "Status",
+    "common.actions": "Actions",
+    "common.date": "Date",
+    "common.name": "Name",
+    "common.email": "Email",
+    "common.searchPlaceholder": "Search tenants, users, services, or events…",
+    "exchange.dashboard": "Platform Owner dashboard",
+    "exchange.godsEye": "Privileged global view",
+    "exchange.operations": "Platform operations",
+    "exchange.users": "Users",
+    "exchange.roles": "Roles and access",
+    "exchange.approvals": "Approvals",
+    "exchange.subscriptions": "Subscriptions",
+    "exchange.transactions": "Transactions",
+    "exchange.incidents": "Security incidents",
+    "exchange.fraud": "Fraud monitoring",
+    "exchange.infrastructure": "Infrastructure",
+    "exchange.configuration": "Platform configuration",
+    "exchange.dataGovernance": "Data governance",
+    "metric.activeBusinesses": "Active businesses",
+    "metric.activeConsumers": "Active consumers",
+    "metric.activeStaff": "Active staff",
+    "metric.ordersToday": "Orders today",
+    "metric.platformRevenue": "Platform revenue",
+    "metric.pendingApprovals": "Pending approvals",
+    "metric.openIncidents": "Open incidents",
+    "metric.serviceAvailability": "Service availability",
+    "tenant.type": "Tenant type",
+    "tenant.business": "Business tenant",
+    "tenant.consumer": "Consumer tenant",
+    "tenant.logistics": "Logistics tenant",
+    "tenant.freelancer": "Individual / freelancer",
+    "tenant.staff": "Staff / employee",
+    "tenant.contractor": "Independent contractor",
+    "tenant.logisticsContractor": "Independent logistics contractor",
+    "tenant.logisticsStaff": "Logistics staff / employee",
+    "tenant.activated": "Activated",
+    "tenant.deactivated": "Deactivated",
+    "tenant.deleted": "Deleted",
+    "tenant.lastSignIn": "Last sign-in",
+    "tenant.region": "Region",
+    "tenant.businessName": "Business name",
+    "tenant.taxId": "Tax ID",
+    "action.requestApproval": "Request owner approval",
+    "action.deactivate": "Deactivate",
+    "action.activate": "Activate",
+    "action.delete": "Delete",
+    "action.viewAudit": "View audit history",
+    "action.viewTenant": "Open tenant",
+    "action.viewIncident": "Review incident",
+    "action.resolve": "Resolve",
+    "action.retry": "Retry",
+    "action.refresh": "Refresh data",
+    "action.exportAudit": "Export audit report",
+    "security.risk": "Risk",
+    "security.low": "Low",
+    "security.medium": "Medium",
+    "security.high": "High",
+    "security.critical": "Critical",
+    "security.detected": "Detected",
+    "security.investigating": "Investigating",
+    "security.contained": "Contained",
+    "security.resolved": "Resolved",
+    "security.mfa": "Multifactor authentication",
+    "security.session": "Session security",
+    "security.tenantBoundary": "Tenant boundary",
+    "security.denyByDefault": "Deny by default",
+    "security.suspiciousActivity": "Suspicious activity",
+    "security.fraudAttempt": "Fraud attempt",
+    "security.reauthentication": "Recent re-authentication required",
+    "audit.actor": "Actor",
+    "audit.event": "Event",
+    "audit.target": "Target",
+    "audit.outcome": "Outcome",
+    "audit.success": "Success",
+    "audit.failure": "Failure",
+    "audit.timestamp": "Timestamp",
+    "audit.location": "Approximate location",
+    "audit.device": "Device / browser",
+    "billing.plan": "Plan",
+    "billing.amount": "Amount",
+    "billing.cycle": "Billing cycle",
+    "billing.monthly": "Monthly",
+    "billing.annual": "Annual",
+    "billing.pastDue": "Past due",
+    "billing.current": "Current",
+    "service.operational": "Operational",
+    "service.degraded": "Degraded performance",
+    "service.outage": "Service outage",
+    "service.maintenance": "Scheduled maintenance",
+    "status.noResults": "No records match the selected filters.",
+    "status.updated": "Platform data updated.",
+    "status.approvalRequired": "Platform-owner approval is required.",
+    "status.actionRecorded": "The action was recorded in the immutable audit history."
   },
   "es": {
     "common.language": "Idioma",
@@ -103,13 +214,127 @@
     "security.reauth": "Se requiere reautenticación.",
     "security.denied": "Acceso denegado.",
     "security.leastPrivilege": "El acceso está limitado por rol e inquilino.",
-    "audit.recorded": "Esta acción se registró en el historial de auditoría."
+    "audit.recorded": "Esta acción se registró en el historial de auditoría.",
+    "page.title": "Marxia · Propietario de la plataforma",
+    "common.profile": "Perfil",
+    "common.appearance": "Apariencia",
+    "common.light": "Claro",
+    "common.dark": "Oscuro",
+    "common.logout": "Cerrar sesión",
+    "common.menu": "Menú",
+    "common.openMenu": "Abrir navegación",
+    "common.closeMenu": "Cerrar navegación",
+    "common.enableLight": "Activar tema claro",
+    "common.enableDark": "Activar tema oscuro",
+    "common.changeLanguage": "Cambiar idioma",
+    "common.filter": "Filtrar",
+    "common.all": "Todos",
+    "common.active": "Activo",
+    "common.inactive": "Inactivo",
+    "common.pending": "Pendiente",
+    "common.status": "Estado",
+    "common.actions": "Acciones",
+    "common.date": "Fecha",
+    "common.name": "Nombre",
+    "common.email": "Correo",
+    "common.searchPlaceholder": "Buscar inquilinos, usuarios, servicios o eventos…",
+    "exchange.dashboard": "Panel del propietario de la plataforma",
+    "exchange.godsEye": "Vista global privilegiada",
+    "exchange.operations": "Operaciones de la plataforma",
+    "exchange.users": "Usuarios",
+    "exchange.roles": "Roles y acceso",
+    "exchange.approvals": "Aprobaciones",
+    "exchange.subscriptions": "Suscripciones",
+    "exchange.transactions": "Transacciones",
+    "exchange.incidents": "Incidentes de seguridad",
+    "exchange.fraud": "Monitoreo de fraude",
+    "exchange.infrastructure": "Infraestructura",
+    "exchange.configuration": "Configuración de la plataforma",
+    "exchange.dataGovernance": "Gobernanza de datos",
+    "metric.activeBusinesses": "Negocios activos",
+    "metric.activeConsumers": "Consumidores activos",
+    "metric.activeStaff": "Personal activo",
+    "metric.ordersToday": "Pedidos de hoy",
+    "metric.platformRevenue": "Ingresos de la plataforma",
+    "metric.pendingApprovals": "Aprobaciones pendientes",
+    "metric.openIncidents": "Incidentes abiertos",
+    "metric.serviceAvailability": "Disponibilidad del servicio",
+    "tenant.type": "Tipo de inquilino",
+    "tenant.business": "Inquilino de negocio",
+    "tenant.consumer": "Inquilino consumidor",
+    "tenant.logistics": "Inquilino de logística",
+    "tenant.freelancer": "Individual / trabajador independiente",
+    "tenant.staff": "Personal / empleado",
+    "tenant.contractor": "Contratista independiente",
+    "tenant.logisticsContractor": "Contratista independiente de logística",
+    "tenant.logisticsStaff": "Personal / empleado de logística",
+    "tenant.activated": "Activado",
+    "tenant.deactivated": "Desactivado",
+    "tenant.deleted": "Eliminado",
+    "tenant.lastSignIn": "Último acceso",
+    "tenant.region": "Región",
+    "tenant.businessName": "Nombre del negocio",
+    "tenant.taxId": "Identificación tributaria",
+    "action.requestApproval": "Solicitar aprobación del propietario",
+    "action.deactivate": "Desactivar",
+    "action.activate": "Activar",
+    "action.delete": "Eliminar",
+    "action.viewAudit": "Ver historial de auditoría",
+    "action.viewTenant": "Abrir inquilino",
+    "action.viewIncident": "Revisar incidente",
+    "action.resolve": "Resolver",
+    "action.retry": "Reintentar",
+    "action.refresh": "Actualizar datos",
+    "action.exportAudit": "Exportar informe de auditoría",
+    "security.risk": "Riesgo",
+    "security.low": "Bajo",
+    "security.medium": "Medio",
+    "security.high": "Alto",
+    "security.critical": "Crítico",
+    "security.detected": "Detectado",
+    "security.investigating": "En investigación",
+    "security.contained": "Contenido",
+    "security.resolved": "Resuelto",
+    "security.mfa": "Autenticación multifactor",
+    "security.session": "Seguridad de la sesión",
+    "security.tenantBoundary": "Límite del inquilino",
+    "security.denyByDefault": "Denegación predeterminada",
+    "security.suspiciousActivity": "Actividad sospechosa",
+    "security.fraudAttempt": "Intento de fraude",
+    "security.reauthentication": "Se requiere reautenticación reciente",
+    "audit.actor": "Actor",
+    "audit.event": "Evento",
+    "audit.target": "Objetivo",
+    "audit.outcome": "Resultado",
+    "audit.success": "Correcto",
+    "audit.failure": "Fallido",
+    "audit.timestamp": "Fecha y hora",
+    "audit.location": "Ubicación aproximada",
+    "audit.device": "Dispositivo / navegador",
+    "billing.plan": "Plan",
+    "billing.amount": "Importe",
+    "billing.cycle": "Ciclo de facturación",
+    "billing.monthly": "Mensual",
+    "billing.annual": "Anual",
+    "billing.pastDue": "Vencido",
+    "billing.current": "Al día",
+    "service.operational": "Operativo",
+    "service.degraded": "Rendimiento degradado",
+    "service.outage": "Interrupción del servicio",
+    "service.maintenance": "Mantenimiento programado",
+    "status.noResults": "Ningún registro coincide con los filtros seleccionados.",
+    "status.updated": "Datos de la plataforma actualizados.",
+    "status.approvalRequired": "Se requiere la aprobación del propietario de la plataforma.",
+    "status.actionRecorded": "La acción se registró en el historial de auditoría inmutable."
   }
 };
-  let language = supported.has(localStorage.getItem(STORAGE_KEY)) ? localStorage.getItem(STORAGE_KEY) : "en";
+  let storedLanguage;
+  try { storedLanguage = localStorage.getItem(STORAGE_KEY); } catch {}
+  let language = supported.has(storedLanguage) ? storedLanguage : "en";
 
   const format = (text, values = {}) => Object.entries(values).reduce(
-    (result, [name, value]) => result.replaceAll(`{{${name}}}`, String(value)), text
+    (result, [name, value]) => result.replaceAll(`{{${name}}}`, String(value)),
+    text
   );
   const t = (key, values) => format(messages[language][key] ?? messages.en[key] ?? key, values);
 
@@ -119,12 +344,13 @@
     root.querySelectorAll("[data-i18n-placeholder]").forEach(el => { el.placeholder = t(el.dataset.i18nPlaceholder); });
     root.querySelectorAll("[data-i18n-label]").forEach(el => { el.setAttribute("aria-label", t(el.dataset.i18nLabel)); });
     root.querySelectorAll("[data-i18n-title]").forEach(el => { el.title = t(el.dataset.i18nTitle); });
+    document.title = t("page.title");
     document.dispatchEvent(new CustomEvent("marxia:languagechange", { detail: { language } }));
   };
   const setLanguage = locale => {
     if (!supported.has(locale)) return false;
     language = locale;
-    localStorage.setItem(STORAGE_KEY, locale);
+    try { localStorage.setItem(STORAGE_KEY, locale); } catch {}
     localize();
     return true;
   };
@@ -133,7 +359,26 @@
     Object.assign(messages[locale], additions);
     return true;
   };
-  window.MarxiaI18n = { get language(){ return language; }, messages, t, localize, register, setLanguage };
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => localize(), { once:true });
-  else localize();
+
+  const observer = new MutationObserver(records => {
+    records.forEach(record => record.addedNodes.forEach(node => {
+      if (node.nodeType === Node.ELEMENT_NODE) localize(node);
+    }));
+  });
+
+  window.MarxiaI18n = {
+    get language(){ return language; },
+    messages,
+    t,
+    localize,
+    register,
+    setLanguage
+  };
+
+  const start = () => {
+    localize();
+    observer.observe(document.body, { childList: true, subtree: true });
+  };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
+  else start();
 })();
