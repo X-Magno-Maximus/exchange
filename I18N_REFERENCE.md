@@ -49,4 +49,6 @@ MarxiaI18n.register("es", { "dashboard.title": "Panel" });
 
 ## Current repository state
 
-The repository currently has a blank placeholder page. The shared i18n runtime and maintenance standard are ready; page-specific keys must be added when its dashboard interface is implemented.
+The repository currently has a blank placeholder page (`index.html` contains no interface markup). The Exchange runtime now provides 160 matching English and Spanish platform-owner keys for tenants, users, roles, approvals, subscriptions, transactions, security, fraud monitoring, service health, billing, audit events, navigation, titles, placeholders, and accessibility labels.
+
+When the Exchange dashboard is implemented, every visible string must reference these keys rather than embed bilingual copy. Tenant-provided names, identifiers, addresses, emails, prices, and operational values must remain untranslated.
