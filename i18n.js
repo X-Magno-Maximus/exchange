@@ -338,12 +338,16 @@
   );
   const t = (key, values) => format(messages[language][key] ?? messages.en[key] ?? key, values);
 
+  const selectAll = (root, selector) => [
+    ...(root.matches?.(selector) ? [root] : []),
+    ...root.querySelectorAll(selector)
+  ];
   const localize = (root = document) => {
     document.documentElement.lang = language;
-    root.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
-    root.querySelectorAll("[data-i18n-placeholder]").forEach(el => { el.placeholder = t(el.dataset.i18nPlaceholder); });
-    root.querySelectorAll("[data-i18n-label]").forEach(el => { el.setAttribute("aria-label", t(el.dataset.i18nLabel)); });
-    root.querySelectorAll("[data-i18n-title]").forEach(el => { el.title = t(el.dataset.i18nTitle); });
+    selectAll(root, "[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
+    selectAll(root, "[data-i18n-placeholder]").forEach(el => { el.placeholder = t(el.dataset.i18nPlaceholder); });
+    selectAll(root, "[data-i18n-label]").forEach(el => { el.setAttribute("aria-label", t(el.dataset.i18nLabel)); });
+    selectAll(root, "[data-i18n-title]").forEach(el => { el.title = t(el.dataset.i18nTitle); });
     document.title = t("page.title");
     document.dispatchEvent(new CustomEvent("marxia:languagechange", { detail: { language } }));
   };
